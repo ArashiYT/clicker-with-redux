@@ -1,38 +1,40 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Clicker with redux
 
-## Getting Started
+<p align="center">
+  <br>
+  <img src="assets/foto1.png?raw=true" style="height: 400px; width: 40%">
+  &nbsp; &nbsp;
+  <img src="assets/foto2.png?raw=true" style="height: 400px; width: 40%">
+  <br>
+</p>
 
-First, run the development server:
+📌 Using redux in controls which increment and deincrement value
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+📌 Breaking the controls and displaying the result in separate components
+
+📌 A simple and practical example of using redux
+
+## Instalation
+
+You need [NodeJS v.18](https://nodejs.org/en "Node JS") to install the application. When you have this, you should copy code from this repository using download from the website or using this command in cmd if you have [GIT](https://git-scm.com "GIT") in your computer:
+```
+git clone https://github.com/ArashiYT/weatherApp.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+When you download the code, in the directory where the code it is, you use this command in cmd:
+```
+npm install
+```
+Finally use the command:
+```
+npm run dev
+```
+And Done. The project is running!
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Distribution
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+If you have followed the project installation steps, you use this command:
+```
+npm run build
+```
+A dist directory will be created and in this directory are the files you are uploading to the external server. And Done!
