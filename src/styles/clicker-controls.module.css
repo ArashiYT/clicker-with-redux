@@ -1,0 +1,28 @@
+.buttons {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 3rem;
+}
+
+.buttons button {
+    border: 2px solid #56e034;
+    transition: all .2s linear;
+    justify-content: center;
+    background: transparent;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #56e034;
+    display: flex;
+    outline: none;
+    height: 50px;
+    width: 50px;
+}
+
+.buttons button:is(:hover, :focus) {
+    background: #56e034;
+    cursor: pointer;
+    color: #fff;
+}
